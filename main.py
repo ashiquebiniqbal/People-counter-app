@@ -217,7 +217,7 @@ def main():
     :return: None
     """
     # Grab command line args
-    args = build_argparser().parse_args()
+    args = my_argparser().parse_args()
     # Connect to the MQTT server
     client = connect_mqtt()
     # Perform inference on the input stream
